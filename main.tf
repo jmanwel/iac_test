@@ -16,6 +16,7 @@ terraform {
       name = "iac_test"
     }
   }
+}
 
 provider "aws" {
   region = "sa-east-1"
