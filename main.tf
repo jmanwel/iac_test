@@ -8,6 +8,11 @@ variable "AWS_SECRET_ACCESS_KEY" {
   default = "no_secret_key_value_found"
 }
 
+variable "terraform-ec2-key" {
+  description = "terraform-ec2-key"
+  default = "no_ec2_key_value_found"
+}
+
 terraform {
   backend "remote" {
     organization = "jmanwel"
